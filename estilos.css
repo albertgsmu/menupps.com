@@ -68,11 +68,20 @@ header {
 }
 
 .logo {
+  display: flex;
+  align-items: center; /* Centra verticalmente logo + texto */
   font-size: 1.8rem;
   font-weight: 700;
   color: #fff;
   letter-spacing: -1px;
 }
+.logo-img {
+  width: 50px;   /* Ajusta el ancho según necesites */
+  height: auto;  /* Mantiene la proporción */
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+  vertical-align: middle;
+}
+
 
 nav a {
   margin-left: 2rem;
