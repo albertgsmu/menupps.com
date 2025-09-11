@@ -240,3 +240,11 @@ footer {
   width: auto;      /* mantiene proporción */
   margin-right: 10px;
 }
+
+
+
+.logo-img {
+  height: 45px;     /* tamaño del logo */
+  width: auto;      /* mantiene proporción */
+  margin-right: 10px;
+}
